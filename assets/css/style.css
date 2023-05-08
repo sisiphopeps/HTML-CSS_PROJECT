@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    filter: blur(px);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: silver;
+}
+
+.nav-item {
+    font-weight:bold;
+    color: silver;
+    transition:color 0.2s ease-in-out;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a.nav-link {
+    color: silver;
+  }
+  .mother{
+    display:flex
+  }
+  .child2{
+    font-size: larger;
+  }
+  .bigger{
+    display: flex;
+    padding: 10px;
+  }
