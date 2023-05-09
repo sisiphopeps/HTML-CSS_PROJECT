@@ -3,14 +3,20 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     color: silver;
-    margin:20px;
+    /* margin:20px; */
     
+}
+
+header {
+  position: sticky;
+  top: 0;
 }
 
 .nav-item {
     font-weight:bold;
     color: silver;
     transition:color 0.2s ease-in-out;
+    display: flex;
 }
 
 .brand {
@@ -37,14 +43,11 @@ ul{
     display: flex;
     padding: 10px;
   }
-footer{
-    text-align: center;
-    color:silver;
-    
-}
 
-.footer-item{
-  display: flex;
-  background-color: transparent;
-  color:silver;
-}
+  .footer-item {
+    display: flex;
+  }
+    
+
+
+

@@ -52,3 +52,33 @@ body{
     background-color: #0069D9;
     border-color: #0062CC;
   }
+  header {
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-item {
+    font-weight:bold;
+    color: silver;
+    transition:color 0.2s ease-in-out;
+    display: flex;
+}
+
+.brand {
+    font-weight: bold;
+    text-decoration: none;
+    color:silver;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a.nav-link {
+    color: silver;
+  }
+
+  .footer-item {
+    display: flex;
+  }
