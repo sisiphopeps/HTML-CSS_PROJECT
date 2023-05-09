@@ -1,15 +1,22 @@
 body{
     background-color: black;
-    filter: blur(px);
     background-repeat: no-repeat;
     background-size:cover;
     color: silver;
+    margin:20px;
+    
 }
 
 .nav-item {
     font-weight:bold;
     color: silver;
     transition:color 0.2s ease-in-out;
+}
+
+.brand {
+    font-weight: bold;
+    text-decoration: none;
+    color:silver;
 }
 
 ul{
@@ -30,3 +37,14 @@ ul{
     display: flex;
     padding: 10px;
   }
+footer{
+    text-align: center;
+    color:silver;
+    
+}
+
+.footer-item{
+  display: flex;
+  background-color: transparent;
+  color:silver;
+}

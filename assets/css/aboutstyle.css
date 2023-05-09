@@ -1,5 +1,20 @@
 *{
-    background-image: url(../images/background.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
+    color: silver;
+}
+
+.heading{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: silver;
+    background-color: black;
+}
+
+body{
+    text-align:center;
+    
 }

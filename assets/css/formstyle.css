@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    color: silver;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: silver;
+    margin:20px;
+}
+
+#contact {
+    padding: 50px 0;
+  }
+  #contact h2 {
+    font-size: 2rem;
+  }
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  #contact {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+  }
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #contact .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #contact .form-control {
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+  }
+  #contact textarea.form-control {
+    height: auto;
+  }
+  #contact button[type="submit"] {
+    height: 50px;
+    border-radius: 0;
+    background-color: #007BFF;
+    border-color: #007BFF;
+  }
+  #contact button[type="submit"]:hover {
+    background-color: #0069D9;
+    border-color: #0062CC;
+  }
