@@ -5,6 +5,33 @@
     color: silver;
 }
 
+header {
+    position: sticky;
+    top: 0;
+  }
+  
+  .nav-item {
+      font-weight:bold;
+      color: silver;
+      transition:color 0.2s ease-in-out;
+      display: flex;
+  }
+  
+  .brand {
+      font-weight: bold;
+      text-decoration: none;
+      color:silver;
+  }
+  
+  ul{
+      list-style-type: none;
+      display: flex;
+  }
+  
+  .navbar a.nav-link {
+      color: silver;
+    }
+
 .heading{
     margin: 0px;
     padding: 0px;
@@ -18,3 +45,8 @@ body{
     text-align:center;
     
 }
+
+.footer-item {
+    display: flex;
+  }
+    
