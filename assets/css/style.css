@@ -7,6 +7,7 @@ body{
     color: silver;
     /* margin:20px; */
     font-family: 'Noto Sans SC', sans-serif;
+    height: 100vh;
 }
 
 header {
