@@ -47,6 +47,10 @@ ul{
     padding: 10px;
   }
 
+  .card-body{
+    color: white;
+  }
+
   .footer-item {
     display: flex;
   }
